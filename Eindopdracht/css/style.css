@@ -1,0 +1,147 @@
+/*Homepagina css*/
+
+Header {
+    color: white;
+}
+
+header ul li{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header ul li:hover{
+    color: black;
+    transform: scale(1.4);
+}
+
+nav {
+    background-color: pink;
+    color: black; 
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    color: black; 
+}
+
+li{
+    padding: 1rem;
+}
+
+img.logo{
+    max-width: 20rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    max-height: 11rem;    
+    }
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#homepagina{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    
+}
+
+#homepagina li{
+    background-color: rgba(0,160,400,0.5);
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+/*Hover trucks en selecteerbaar met cursor*/
+#homepagina li:hover, main li:focus {
+    background-color: pink;
+    color: white;
+    transform: scale(1.05);
+}
+
+#
+
+li h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: georgia;
+    color: white;
+}
+
+li p {
+    font-size: 2rem;
+    width: 38rem;
+    text-align: center;
+    font-family: georgia;
+}
+
+#foodtruckfoto{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#truck {
+    width: 40rem;
+    height: 30rem; 
+}
+
+a {
+    color: black;
+}
+
+/* Form css */
+
+fieldset fieldset{
+    margin-top: irem;
+}
+
+input [type=file] {
+    border: none;
+}
+
+
+form {
+    padding: 1rem;
+    text-align: left;
+    
+}
+
+#button {
+    background-color: rgba(0,160,400,0.5);
+    color: black;
+    width: 10rem;   
+    height: 2rem;
+    border-radius: 5rem; 
+}
+
+legend {
+    color: rgba(0,160,400,0.5);
+}
+
+fieldset {
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+input {
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    padding: 3px;
+}
